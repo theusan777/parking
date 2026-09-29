@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parking Management</title>
+</head>
+<body>
+  <div>
+    <input type="text" id="name" placeholder="Enter your vehicle name" autocomplete="off">
+    <input type="text" id="license_plate" placeholder="Enter your license plate" autocomplete="off">
+    <button id="send">Register</button>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Vehicle Name</th>
+        <th>License Plate</th>
+        <th>Time</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+
+    <tbody id="garage"></tbody>
+  </table>
+</body>
+<script src="main.js"></script>
+</html>
